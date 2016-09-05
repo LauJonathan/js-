@@ -1,3 +1,5 @@
 1.parseInt
-  parseInt('010');      // chrome,firfox,ie9+ 为10
-  ie9- parseInt('010'); // 8
+  parseInt(010);    // 8
+  parseInt('010');  // chrome,firfox,ie9+ 为10, ie9- parseInt('010'); // 8
+  parseInt('100a'); // 100
+  parseInt('a100'); // NaN
